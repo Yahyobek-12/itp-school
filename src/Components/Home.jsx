@@ -1,9 +1,7 @@
 import { Link } from 'react-router-dom'
 import htmlImg from '../Images/html.png'
 import cssImg from '../Images/css.png'
-import HSec1 from '../Sections/HSec1'
-import HSec2 from '../Sections/HSec2'
-import HSec3 from '../Sections/HSec3'
+import { HSec1, HSec2, HSec3, HSec4 } from '../Constants'
 
 const Home = () => {
   return (
@@ -23,6 +21,7 @@ const Home = () => {
         <HSec1 />
         <HSec2 />
         <HSec3 />
+        <HSec4 />
     </div>
   )
 }

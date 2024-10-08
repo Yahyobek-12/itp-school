@@ -47,6 +47,7 @@ nav {
   background: url(./Images/space.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 /* #future-title {
