@@ -50,12 +50,18 @@ nav {
   background-attachment: fixed;
 }
 
-/* #future-title {
-  background: linear-gradient(#2970ff, #09f);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 1px 3px 3px #001845;
-} */
+#motivation {
+  background: url(./Images/blue-space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 15px;
+}
+
+#motivation-blur {
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
 
 /* Keyframes */
 
