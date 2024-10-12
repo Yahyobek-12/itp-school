@@ -48,7 +48,7 @@ const Courses = () => {
               <li className='text-gray-300 mt-4'>Ishda yoki o'qishda kompyuter kerak bo'lib, ko'nikmalari yetarli bo'lmaganlar uchun</li>
               <li className='text-gray-300 mt-4'>Kundalik hayotda kompyuter ko'nikmalarini oshirishni istagan har bir kishi uchun</li>
             </ul>
-            <h2 className='text-xl text-white mt-4'>⏰ Kurs davomiyligi: 1 oy</h2>
+            <h2 className='text-xl text-white mt-4'>⏰ Kurs davomiyligi: 3 oy</h2>
             <p className='text-gray-300 mt-3'>💵 Narxi: 200,000 so'm</p>
            </div>
           </div>
