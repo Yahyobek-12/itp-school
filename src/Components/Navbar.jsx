@@ -22,7 +22,7 @@ const Navbar = () => {
         <Link to="/" className='py-[10px] px-[20px] ml-4 bg-gradient-to-br from-blue-600 via-blue-400 to-blue-600 text-white rounded-md hover:scale-[98%] border-b-[3px] border-blue-800 hidden md:block'>Bog'lanish</Link>
         {toggle ? <IoClose className='text-white text-[40px] block md:hidden py-2 px-2 z-10' style={{ cursor: 'pointer' }}onClick={clickToggle} /> : <HiMenuAlt4 className='text-white text-[40px] block md:hidden py-2 px-2 z-10' style={{ cursor: 'pointer' }}onClick={clickToggle} />}
 
-        <div className={`${toggle ? 'block' : 'hidden'} md:hidden block w-[100%] h-[45vh] fixed top-0 left-0 bg-slate-950 px-4`}>
+        <div className={`${toggle ? 'block' : 'hidden'} md:hidden block w-[100%] h-[45vh] fixed top-0 left-0 bg-newBlack px-4`}>
           <ul className='py-16 px-2'>
             <Link to="/" className='text-white block mt-6' onClick={clickToggle}>Bosh Sahifa</Link>
             <Link to="/courses" className='text-white block mt-6' onClick={clickToggle}>Kurslar</Link>
