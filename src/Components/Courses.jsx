@@ -9,11 +9,7 @@ import RishotkaIMG from '../Images/rishotka.png'
 const Courses = () => {
   return (
     <Swiper
-      direction={'vertical'}
-      pagination={{
-        clickable: true,
-      }}
-      modules={[Pagination]}
+      pagination={true} modules={[Pagination]} 
       className="w-[100%] md:h-[100vh] xs:h-[150vh] sx:h-[175vh] h-[190vh] custom-swiper-pagination"
     >
       <SwiperSlide>

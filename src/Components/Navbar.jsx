@@ -17,7 +17,7 @@ const Navbar = () => {
         <ul className='md:block hidden'>
           <Link to="/" className='py-[15px] px-[25px] text-gray-300 font-bold rounded-md hover:bg-slate-800'>Bosh Sahifa</Link>
           <Link to="/courses" className='py-[15px] px-[25px] text-gray-300 font-bold rounded-md hover:bg-slate-800'>Kurslar</Link>
-          <Link to="/blog" className='py-[15px] px-[25px] text-gray-300 font-bold rounded-md hover:bg-slate-800'>Do'kon</Link>
+          <Link to="/shop" className='py-[15px] px-[25px] text-gray-300 font-bold rounded-md hover:bg-slate-800'>Do'kon</Link>
         </ul>
         <Link to="/" className='py-[10px] px-[20px] ml-4 bg-gradient-to-br from-blue-600 via-blue-400 to-blue-600 text-white rounded-md hover:scale-[98%] border-b-[3px] border-blue-800 hidden md:block'>Bog'lanish</Link>
         {toggle ? <IoClose className='text-white text-[40px] block md:hidden py-2 px-2 z-10' style={{ cursor: 'pointer' }}onClick={clickToggle} /> : <HiMenuAlt4 className='text-white text-[40px] block md:hidden py-2 px-2 z-10' style={{ cursor: 'pointer' }}onClick={clickToggle} />}
