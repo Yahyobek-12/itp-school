@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import htmlImg from '../Images/html.png'
-import cssImg from '../Images/css.png'
+import wordImg from '../Images/microsoft-word.png'
 import { HSec1, HSec2, HSec3, HSec4, HSec5 } from '../Constants'
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
         </div>
 
             <img id='html-css' src={htmlImg} alt="html-img" className='w-[200px] h-[200px] absolute bottom-[3rem] right-[10rem] hidden xl:block' />
-            <img id='html-css' src={cssImg} alt="html-img" className='w-[100px] h-[100px] absolute top-[8rem] left-[4rem] hidden xl:block' />
+            <img id='html-css' src={wordImg} alt="html-img" className='w-[100px] h-[100px] absolute top-[8rem] left-[4rem] hidden xl:block' />
         </div>
         <HSec1 />
         <HSec2 />
