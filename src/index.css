@@ -63,6 +63,14 @@ nav {
   border-radius: 15px;
 }
 
+.custom-swiper-pagination .swiper-pagination-bullet {
+  background-color: #09f;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #2970ff;
+}
+
 /* Keyframes */
 
 @keyframes html {

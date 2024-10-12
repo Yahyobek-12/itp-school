@@ -11,7 +11,7 @@ const HSec4 = () => {
         <img src={fallIMG} alt="fall-img" className='w-[300px] xs:w-[500px] md:w-[900px]' />
       </div>
       <div className='mt-5 xs:mt-0'>
-        <Link to="/" className='py-3 md:py-4 px-6 md:px-12 bg-gradient-to-bl from-blue-700 via-blue-300 to-blue-700 rounded-md text-white text-[20px] md:text-2xl border-b-2 border-blue-500 hover:opacity-85'>
+        <Link to="https://t.me/ALTAQVOOOO" target='_blank' className='py-3 md:py-4 px-6 md:px-12 bg-gradient-to-bl from-blue-700 via-blue-300 to-blue-700 rounded-md text-white text-[20px] md:text-2xl border-b-2 border-blue-500 hover:opacity-85'>
           Kursga yozilish
         </Link>
       </div>

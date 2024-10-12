@@ -11,7 +11,7 @@ const Home = () => {
             <h1 id="home-title" className="lg:text-8xl md:text-7xl xs:text-6xl sx:text-5xl text-4xl font-bold font-outfit text-white">ITP School bilan birga <br /> kelajagingizni yarating</h1>
             <p className="mt-10 text-white xs:max-w-[550px] max-w-[450px] text-[20px]">ITP School'da har bir qadam sizni IT sohasida muvaffaqiyat sari yetaklaydi. Bilim va amaliyot bilan orzularingizni ro'yobga chiqaring!</p>
             <div className='mt-10'>
-                <Link to="/" className='py-4 px-12 bg-gradient-to-br from-blue-700 via-blue-500 to-blue-300 rounded-md text-white hover:opacity-85'>Kursga yozilish</Link>
+                <Link to="https://t.me/ALTAQVOOOO" target='_blank' className='py-4 px-12 bg-gradient-to-br from-blue-700 via-blue-500 to-blue-300 rounded-md text-white hover:opacity-85'>Kursga yozilish</Link>
             </div>
         </div>
 

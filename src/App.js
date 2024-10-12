@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
-import { Navbar, Home, Footer } from './Constants'
+import { Navbar, Home, Footer, Courses } from './Constants'
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/courses' element={<Courses />} />
       </Routes>
       <Footer />
     </div>

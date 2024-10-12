@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-6 px-10">
+    <footer className="bg-newBlack text-white py-6 px-10">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         
         {/* ITP School Info */}
@@ -43,7 +43,7 @@ const Footer = () => {
       </div>
 
       <div className="w-[100%] h-[50px] flex items-center justify-center mt-8 border-t-[1px] border-gray-400 pt-8">
-        <p className="text-xl">&copy; 2024 ITP School | Designed by <Link to="https://yahyobek.vercel.app/" target='_blank' className='text-gray-300 border-b-2 border-gray-300'>Yahyobek</Link></p>
+        <p className="text-xl">&copy; 2024 ITP School | Created by <Link to="https://yahyobek.vercel.app/" target='_blank' className='text-gray-300 border-b-2 border-gray-300'>Yahyobek</Link></p>
       </div>
     </footer>
   );

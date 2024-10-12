@@ -9,16 +9,17 @@ module.exports = {
         primary: '#1a202c',
         secondary: '#2d3748',
         accent: '#38b2ac',
-        blacked: '#171923'
+        blacked: '#171923',
+        newBlack: '#13141b'
       },
       screens: {
-        'sx': '320px',   // Super extra small screen
-        'xs': '475px',   // Extra small screen
-        'sm': '640px',   // Small screen
-        'md': '768px',   // Medium screen
-        'lg': '1024px',  // Large screen
-        'xl': '1280px',  // Extra large screen
-        '2xl': '1536px', // 2x Extra large screen
+        'sx': '320px', 
+        'xs': '475px',  
+        'sm': '640px',  
+        'md': '768px',  
+        'lg': '1024px', 
+        'xl': '1280px', 
+        '2xl': '1536px',
       },
       fontFamily: {
         sans: ['Roboto', 'Helvetica', 'Arial', 'sans-serif'],
