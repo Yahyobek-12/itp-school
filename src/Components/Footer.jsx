@@ -17,9 +17,9 @@ const Footer = () => {
         {/* Navigation Links */}
         <div>
           <h3 className="text-xl font-bold mb-4">Quick Links</h3>
-          <Link to="#home" className="block hover:text-gray-400 mb-2">Bosh Sahifa</Link>
-          <Link to="#courses" className="block hover:text-gray-400 mb-2">Kurslar</Link>
-          <Link to="#contact" className="block hover:text-gray-400">Bog'lanish</Link>
+          <Link to="/" className="block hover:text-gray-400 mb-2">Bosh Sahifa</Link>
+          <Link to="/courses" className="block hover:text-gray-400 mb-2">Kurslar</Link>
+          <Link to="/shop" className="block hover:text-gray-400">Do'kon</Link>
         </div>
 
         {/* Contact & Socials */}
